@@ -150,9 +150,7 @@ SELECT *
 FROM tutorial.billboard_top_100_year_end
 WHERE year BETWEEN 1990 AND 1999
 AND ((artist NOT ILIKE '%Madonna%' AND year_rank BETWEEN 10 AND 100) OR (year_rank BETWEEN 1 AND 10))
-```
 
-```
 # used for confirming
 SELECT *
 FROM tutorial.billboard_top_100_year_end
